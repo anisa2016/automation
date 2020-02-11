@@ -1,5 +1,6 @@
 package com.akmal;
 
+import java.time.LocalDateTime;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -51,6 +52,8 @@ public class Auto {
 		else {
 			System.out.println("Step FAIL -->>"+"there are no java developer openings in this location");
 		}
+		
+		System.out.println("TimeStamp is "+LocalDateTime.now());
 		
 		
 		driver.close();
